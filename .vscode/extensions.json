@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "nhoizey.gremlins",
+    "davidanson.vscode-markdownlint",
+    "eseom.nunjucks-template",
+    "henriiik.vscode-sort",
+    "bradlc.vscode-tailwindcss"
+  ]
+}

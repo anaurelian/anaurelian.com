@@ -1,0 +1,24 @@
+---
+layout: base
+---
+
+<div class="py-16 bg-gray-200">
+  <div class="aa-container text-center">
+    {% if aaSectionName %}
+      <p class="font-semibold text-gray-400 text-lg">
+        <a href="{{ aaSectionRoot }}">{{ aaSectionName }}</a>
+      </p>
+    {% endif %}
+    {% if title %}
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold">{{ title }}</h1>
+    {% endif %}
+  </div>
+</div>
+
+<div class="py-16 aa-container">
+  <main class="prose lg:prose-lg xl:prose-xl 2xl:prose-2xl mx-auto">
+    <div>
+      {{ content | safe }}
+    </div>
+  </main>
+</div>

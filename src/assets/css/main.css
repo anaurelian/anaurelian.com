@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+}
+
+@layer components {
+
+  .aa-container {
+    @apply max-w-screen-md md:px-12 mx-auto px-6 xl:px-0;
+  }
+
+}
+
+@layer utilities {
+}
